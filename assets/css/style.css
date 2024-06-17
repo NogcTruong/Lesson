@@ -45,6 +45,21 @@ a {
   opacity: 0.8;
 }
 
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-2 {
+  --line-clamp: 2;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
 /*  ========== Header ========== */
 .fixed-header {
   padding-top: 24px;
@@ -342,7 +357,7 @@ a {
 
 .popular .course-item:hover {
   box-shadow: 0px 18px 36px 0px #0000000d;
-  border: 0;
+  border-color: transparent;
 }
 
 .popular .course-item .thumb {
