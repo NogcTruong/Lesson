@@ -34,7 +34,6 @@ body {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: 600;
-  line-height: 1.86;
   height: 50px;
 }
 
@@ -103,7 +102,7 @@ a {
 
 /* Hero */
 .hero {
-  padding: 65px 0;
+  padding: 53px 0;
   background-color: #fffcf4;
 }
 
@@ -121,6 +120,7 @@ a {
   height: 685px;
   border-radius: 20px;
   object-fit: cover;
+  vertical-align: bottom;
 }
 
 .hero .hero-summary {
@@ -130,7 +130,7 @@ a {
   width: 270px;
   display: flex;
   border-radius: 12px;
-  padding: 24px 58px 24px 24px;
+  padding: 24px;
   flex-direction: column;
   /* gap: 14px; */
   background-color: #ffffff;
