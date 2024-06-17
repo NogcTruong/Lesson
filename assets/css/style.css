@@ -670,11 +670,14 @@ a {
 }
 
 .blog .blog-info .title {
+  margin: 12px 0;
+}
+
+.blog .blog-info .title a {
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.75;
   color: #171100;
-  padding: 12px;
 }
 
 .blog .blog-info .btn-read {
